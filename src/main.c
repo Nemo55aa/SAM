@@ -65,6 +65,7 @@ void WriteWav(char* filename, char* buffer, int bufferlength)
 
 void PrintUsage()
 {
+	/*
 	printf("usage: sam [options] Word1 Word2 ....\n");
 	printf("options\n");
 	printf("	-phonetic 		enters phonetic mode. (see below)\n");
@@ -107,6 +108,7 @@ void PrintUsage()
 	printf("UM           astron(omy) (=AXM)        K         cake		\n");
 	printf("UN           functi(on) (=AXN)         CH        speech		\n");
 	printf("Q            kitt-en (glottal stop)    /H        a(h)ead	\n");	
+	*/
 }
 
 #ifdef USESDL
